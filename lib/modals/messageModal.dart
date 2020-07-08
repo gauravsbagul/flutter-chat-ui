@@ -65,7 +65,7 @@ final User sanchit = User(
 List<User> favorites = [rohit, aditya, nikhil, omkar, yadnesh, sanchit];
 
 // Example chat on home
-List<Message> chats = [
+List<Message> messages = [
   Message(
     sender: rohit,
     time: '4.50 PM',
@@ -75,50 +75,50 @@ List<Message> chats = [
   ),
   Message(
     sender: aditya,
-    time: '4.50 PM',
-    text: 'Hey how\'s it going? What did you do today?',
+    time: '4.59 PM',
+    text: 'Just walked my dog',
     isLiked: false,
     unread: true,
   ),
   Message(
-    sender: nikhil,
-    time: '6.57 PM',
-    text: 'Hey how\'s it going? What did you do today?',
+    sender: currentuser,
+    time: '5.00 PM',
+    text: 'How\s the dog?',
     isLiked: false,
     unread: true,
   ),
   Message(
     sender: yadnesh,
-    time: '2.59 PM',
-    text: 'Hey how\'s it going? What did you do today?',
-    isLiked: false,
+    time: '5.05 PM',
+    text: 'What kind a food did you eat',
+    isLiked: true,
     unread: false,
   ),
   Message(
-    sender: omkar,
-    time: '7.00 AM',
-    text: 'Hey how\'s it going? What did you do today?',
+    sender: currentuser,
+    time: '5.10 PM',
+    text: 'Where do you live',
     isLiked: false,
     unread: true,
   ),
   Message(
     sender: sanchit,
-    time: '3.36 PM',
-    text: 'Hey how\'s it going? What did you do today?',
-    isLiked: false,
+    time: '5.15 PM',
+    text: 'I ate so much today',
+    isLiked: true,
     unread: true,
   ),
   Message(
-    sender: ronit,
-    time: '3.14 PM',
-    text: 'Hey how\'s it going? What did you do today?',
+    sender: currentuser,
+    time: '5.30 PM',
+    text: 'Oky, nice talking ot',
     isLiked: false,
     unread: true,
   ),
 ];
 
 //  Example chat on cat screen
-List<Message> message = [
+List<Message> chats = [
   Message(
     sender: rohit,
     time: '4.50 PM',
