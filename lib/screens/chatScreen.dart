@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_app_ui/modals/messageModal.dart';
-import 'package:flutter_chat_app_ui/modals/userModal.dart';
+import 'package:flutter_chat_app_ui/models/messageModel.dart';
+import 'package:flutter_chat_app_ui/models/userModel.dart';
 
 class ChatScreen extends StatefulWidget {
   final User user;

@@ -1,4 +1,4 @@
-import 'package:flutter_chat_app_ui/modals/userModal.dart';
+import 'package:flutter_chat_app_ui/models/userModel.dart';
 
 class Message {
   final User sender;

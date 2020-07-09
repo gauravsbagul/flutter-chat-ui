@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chat_app_ui/modals/messageModal.dart';
+import 'package:flutter_chat_app_ui/models/messageModel.dart';
 import 'package:flutter_chat_app_ui/screens/chatScreen.dart';
 
 class RecentChats extends StatelessWidget {
